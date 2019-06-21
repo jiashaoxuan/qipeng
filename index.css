@@ -1,0 +1,122 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	background: url(image/01.jpg) no-repeat;
+	background-size: cover;
+}
+
+.page1 img {
+	position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 3.7rem;
+	height: 7rem;
+	left: 0.02rem;
+	top: rem;;
+}
+.page1 img:nth-of-type(2) {
+	width: 4rem;
+	height: 3.rem;
+	top: 5rem;
+	right: rem;
+}
+
+/* PAGE2 */
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 3.8rem;
+	height: 7rem;
+	left: 0rem;
+	top: .05rem;
+}
+
+.page2 img:nth-of-type(2){
+	width: 3.8rem;
+	height: rem;
+	left: 0.15rem;
+	top: .05rem;
+}
+
+.page2 img:nth-of-type(3){
+	width: 2rem;
+	height: rem;
+	left: 0.95rem;
+	top: 1.9rem;  
+}
+
+.page2 img:nth-of-type(4){
+	width: 2rem;
+	height: 3rem;
+	left: 0.95rem;
+	top: 3rem; 
+}
+/* PAGE3 */
+.page3 img {
+	position: absolute;
+}
+.page3 img:nth-of-type(1){
+	width: rem;
+	height: 7rem;
+	left: rem;
+	top: rem; 
+}
+.page3 img:nth-of-type(2){
+	width: 3.5rem;
+	height: 6rem;
+	left: 0.14rem;
+	top: 0.4rem;  
+}
+.page3 img:nth-of-type(3){
+	width: 3rem;
+	height: 1rem;
+	left: 0.4rem;
+	top: 0.3rem;    
+}
+.page3 img:nth-of-type(4){
+	width: 3rem;
+	height: 1rem;
+	left: 0.39rem;
+	top: 0.42rem;    
+}
+.page3 img:nth-of-type(5){
+	width: 2.2rem;
+	height: 0.9rem;
+	left: 0.8rem;
+	top: 1.5rem;   
+}
+.page3 img:nth-of-type(6){
+	width: 4rem;
+	height: rem;
+	left: 0.rem;
+	top: 1.25rem   
+}
+.page3 img:nth-of-type(7){
+	width: 2.5rem;
+	height: rem;
+	left: 0.7rem;
+	top: 2.6rem     
+}
+.page3 img:nth-of-type(8){
+	width: 2.7rem;
+	height: rem;
+	left: 0.6rem;
+	top: 5.2rem         
+}
+.page3 img:nth-of-type(9){
+	width: 4.5rem;
+	height: 1.5rem;
+	left: -0.165rem;
+	top: 4.8rem        
+}
